@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #bbbbbb18;
+    border: 5px solid #02110e;
+    border-radius: 25px;
+    margin: 10px;
+
+}
+
+.buttons button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0 2rem;
+    font-size: 1em;
+    box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08);
+    cursor: pointer;
+    margin-left: 5em;
+    margin-top: 30px;
+}
+.buttonl button {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0 2rem;
+    font-size: 5em;
+    box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08);
+    background-color: gray;
+}
+
+.buttons button:hover{
+    
+    background-color: #003cff;
+}
+.buttons button:focus{
+    outline: 0;
+}

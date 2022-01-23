@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+body {
+}
+
+.lightContainer {
+  display: flex;
+  overflow: scroll;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  padding: 20px;
+}
+.lightContainer::-webkit-scrollbar {
+  display: none;
+}
